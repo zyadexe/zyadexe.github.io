@@ -1,0 +1,72 @@
+/*FONTS*/
+
+@font-face { /*Bold*/
+    font-family: 'Vazirmatn';
+    src: url("webfont/Vazirmatn-Bold.woff2") format('woff2') ;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+@font-face { /*Regular*/
+    font-family: 'Vazirmatn';
+    src: url("webfont/Vazirmatn-Regular.woff2") format('woff2') ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face { /*Light*/
+    font-family: 'Vazirmatn';
+    src: url("webfont/Vazirmatn-Light.woff2") format('woff2') ;
+    font-weight: lighter;
+    font-style: normal;
+}
+
+
+
+body{
+    color: #c7dae6 ;
+    background-color: #152233 ;
+    font-family: 'Vazirmatn';
+    overflow: hidden;
+}
+
+#Main .Hello-world{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+#Main .About{
+    font-size: 19px;
+    font-weight: normal;
+}
+
+#Social svg{
+    fill:#c7dae6;
+    width: 45px;
+    height: 45px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+#Social svg:hover{
+    fill:#6d767c;
+}
+
+footer{
+    font-size: 20px;
+    padding-top: 100px;
+}
+
+a{
+    text-decoration-line:none;
+    color:#8344be;
+}
+
+a:hover{
+    color:#5a3180;
+}
